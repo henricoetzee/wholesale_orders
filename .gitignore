@@ -1,0 +1,21 @@
+# Streamlit local secrets (contains Google service account credentials)
+.streamlit/secrets.toml
+
+# Any downloaded Google service account JSON files
+*.json
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Byte-compiled files and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & OS files
+.env
+.DS_Store
+Thumbs.db
